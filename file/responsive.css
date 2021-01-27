@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px) {
+    body {
+        cursor: pointer;
+    }
+    .footer-wrap {
+        font-size: 13px;
+    }
+    .row.d-flex {
+        text-align: left;
+    }
+    img.d-inline-block.align-top {
+        width: 50px;
+        height: 50px;
+    }
+    img.img-title {
+        width: 115px;
+        height: 100%;
+    }
+    h3.nav-portal {
+        text-align: center;
+        margin: 10px 0 15px 0;
+    }
+
+    /* Home Page */
+    img.img-home-page {
+        display: none;
+    }
+    .selector {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+
+    /* Subjects */
+    .subject-item {
+        margin: 15px;
+    }
+    .breadcrumb-btn-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    button.btn-breadcrumb-1, button.btn-breadcrumb {
+        margin: 15px 5px 10px 5px;
+        padding: 8px 20px;
+    }
+    .d-flex.justify-content-end.col-sm-4 {
+        justify-content: center !important;
+        margin: 20px 0;
+    }
+
+    /* lesson */
+    .lesson-wrap-box {
+        margin: 25px 30px;
+        height: 220px;
+        width: 300px;
+    }
+    .lesson-box-img-desc {
+        padding: 20px 13px;
+    }
+
+
+
+    /* Content */
+    section#video-wrap {
+        padding: 20px 0;
+        margin: unset;
+    }
+    .related-video-box video {
+        width: 155px;
+        justify-content: center;
+        margin: 0px 2px;
+        padding: 10px 0 0 0;
+    }
+    .audio-box {
+        margin: 10px 15px 10px 15px;
+        padding: 30px 10px;
+    }
+}

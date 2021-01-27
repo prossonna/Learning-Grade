@@ -1,0 +1,234 @@
+@media only screen and (max-width: 600px) {
+    body {
+        cursor: pointer;
+    }
+    .footer-wrap {
+        font-size: 13px;
+    }
+    section#pre-footer {
+        background: #8888;
+        padding: 20px 0;
+    }
+    img.prefooter-img {
+        width: 90px;
+        height: 80px;
+    }
+    .row.d-flex {
+        text-align: left;
+    }
+    img.d-inline-block.align-top {
+        width: 70px;
+        height: 70px;
+    }
+    img.img-title {
+        width: 170px;
+        height: 100%;
+    }
+    h3.nav-portal {
+        text-align: center;
+        margin: 10px 0 15px 0;
+    }
+    .drop-btn {
+        padding: 5px 25px;
+    }
+    /* Home Page */
+    img.img-home-page {
+        display: none;
+    }
+    .selector {
+            margin: 10px 0;
+    }
+    .divider1 {
+        width: 25% !important;
+        top: 13px;
+    }
+    .divider2 {
+        width: 25% !important;
+        top: 13px;
+    }
+
+    /* Subjects */
+    .subject-item {
+        margin: 15px;
+    }
+    .breadcrumb-btn-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    button.btn-breadcrumb-1, button.btn-breadcrumb {
+        margin: 15px 5px 10px 5px;
+        padding: 8px 20px;
+    }
+    .d-flex.justify-content-end.col-sm-4 {
+        justify-content: center !important;
+        margin: 20px 0;
+    }
+
+    /* lesson */
+    .lesson-wrap-box {
+        margin: 25px 30px;
+        height: 220px;
+        width: 300px;
+    }
+    
+    img.lesson-box-img {
+        width: 236px;
+        height: 115px;
+    }
+    .lesson-box-img-desc {
+        padding: 20px 13px;
+    }
+
+
+
+    /* Content */
+    section#video-wrap {
+        padding: 20px 0;
+        margin: unset;
+    }
+    .full-with-video {
+        width: 100%;
+    }
+    .related-videos-wrap {
+        height: 200px;
+        overflow: auto;
+        padding: 0 5px;
+    }
+    .related-videos {
+        margin: 20px 0 0;
+    }
+    .related-video-box video {
+        width: 115px;
+        justify-content: center;
+        margin: 0px 2px;
+        padding: 10px 0 0 0;
+    }
+    span.video-title {
+        width: 155px;
+    }
+    .audio-box {
+        margin: 10px 15px 10px 15px;
+        padding: 30px 10px;
+    }
+    .audio-box audio {
+        width: 80%;
+    }
+    
+    .login-page-wrap {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .divider1 {
+        width: 23% !important;
+        top: 13px;
+    }
+    .divider2 {
+        width: 23% !important;
+        top: 13px;
+    }
+}
+@media (min-width: 576px) {
+    .divider1 {
+        width: 27% !important;
+        top: 13px;
+    }
+    .divider2 {
+        width: 27% !important;
+        top: 13px;
+    }
+    
+    img.lesson-box-img {
+        width: 300px !important;
+        height: 115px !important;
+    }
+    .lesson-wrap-box {
+        margin: 25px 30px;
+        height: 210px !important;
+        width: 230px !important;
+    }
+}
+@media (min-width: 768px) { 
+    .divider1 {
+        width: 35% !important;
+        top: 13px;
+    }
+    .divider2 {
+        width: 35% !important;
+        top: 13px;
+    }
+    button.btn-grade {
+        height: 45px;
+        width: 135px;
+        font-size: 13px;
+    }
+    .lesson-wrap-box-extra {
+        width: 220px !important;
+    }
+    img.lesson-box-img-extra {
+        width: 236px ;
+        height: 115px;
+    }
+    .lesson-wrap-box {
+        height: 220px;
+        width: 200px;
+    }
+    img.lesson-box-img {
+        width: 200px !important;
+        height: 100px !important;
+    }
+    .lesson-box-img-desc {
+        padding: 20px 10px;
+    }
+
+    /* .full-with-video {
+        width: 60%;
+    }
+    .related-videos-wrap {
+        height: 235px;
+    }
+    video.video-info {
+        margin: 5px ;
+        width: 100px;
+    }
+    span.video-title {
+        width: 155px;
+    } */
+}
+@media (min-width: 992px) { 
+    .divider1 {
+        width: 38% !important;
+        top: 15px !important;
+    }
+    .divider2 {
+        width: 38% !important;
+        top: 15px !important;
+    }
+
+    /* .full-with-video {
+        width: 65%;
+    }
+    .related-videos-wrap {
+        height: 335px;
+    }
+    video.video-info {
+        width: 115px;
+    }
+    span.video-title {
+        width: 190px;
+    } */
+
+}
+@media (min-width: 1200px) {
+    .divider1 {
+        width: 40% !important;
+        top: 13px;
+    }
+    .divider2 {
+        width: 40% !important;
+        top: 13px;
+    }
+    
+}
